@@ -356,7 +356,7 @@ img { width: auto; max-width: 100%; height: auto; margin: 0; padding: 0; border:
    ----------------------*/
 
 .logo { text-align: center;}
-.logoMAW{  height:200px;}
+.logoMAWHeader { height: 150px}
 .top-bar { background-color: #fff; padding-top: 20px; padding-bottom: 20px; }
 .support-bar { position: relative; margin-bottom: 0px; margin-top: 4px; }
 .support-icon { font-size: 24px; color: #1aa644; top: 2px; position: absolute; }
@@ -480,18 +480,18 @@ img { width: auto; max-width: 100%; height: auto; margin: 0; padding: 0; border:
 /*-----------------------------------
 7. Footer
 -------------------------------------*/
-.footer { background-color: #0a0c0e; padding-top: 80px; padding-bottom: 30px; color: #717376; font-weight: 400; }
+.footer { background-color: #005da6; padding-top: 40px; padding-bottom: 10px; color: #717376; font-weight: 400; }
 .footer-title { margin-bottom: 40px; color: #fff; letter-spacing: 0px; font-size: 24px; }
-.ft-logo { margin-top: 120px; }
+.ft-logo { margin-top: 10px; }
 .footer-widget { margin-bottom: 80px; }
 .footer-widget ul { margin-bottom: 25px; }
 .footer-widget ul li { line-height: 1; margin-bottom: 18px; }
-.footer-widget li::before { font-family: "FontAwesome"; font-size: 14px; color: #6e726e; content: '\f105'; }
-.footer-widget ul li a { font-size: 14px; color: #6e726e; text-transform: uppercase; letter-spacing: 0px; font-weight: 500; padding-left: 12px; line-height: 0; }
-.footer-widget ul li a:hover { color: #3ecb27; }
+.footer-widget li::before { font-family: "FontAwesome"; font-size: 14px; color: white; content: '\f105'; }
+.footer-widget ul li a { font-size: 14px; color: white; text-transform: uppercase; letter-spacing: 0px; font-weight: 500; padding-left: 12px; line-height: 0; }
+.footer-widget ul li a:hover { color: #00BAB3; }
 .contact-info { margin-bottom: 24px; font-size: 16px; }
-.contact-icon { font-size: 20px; color: #1aa644; vertical-align: middle; }
-.contact-text { padding-left: 10px; }
+.contact-icon { font-size: 20px; color: #00BAB3; vertical-align: middle; }
+.contact-text { padding-left: 10px; color:white }
 .btn-twitter { background: #00aced; color: #fff; }
 .btn-twitter:hover, .btn-twitter:active { background: #0084b4; color: #fff; }
 .btn-facebook { background: #3B5997; color: #fff; }
@@ -506,13 +506,15 @@ img { width: auto; max-width: 100%; height: auto; margin: 0; padding: 0; border:
 .btn-linkedin { background: #0074A1; color: #fff; }
 .btn-linkedin:hover, .btn-linkedin:active { background: #006288; color: #fff; }
 .btn-social { -webkit-font-smoothing: antialiased; font-size: 16px; padding: 12px 12px; margin-right: 2px; border-radius: 100%; display: inline-block; width: 38px; height: 38px; line-height: 1; }
-
+.contact-marginLeft{ margin-left: 40px;}
+.logoMAW{  height:auto;}
+.footerBottomHeight{margin-bottom: 15px;}
 /*-------------- tiny footer ------------*/
-.tiny-footer { text-align: center; font-size: 14px; }
+.tiny-footer { text-align: center; font-size: 14px; color:white }
 
 /*--- easetemplate copyright link --*/
-.copyrightlink { color: #1aa644; }
-.copyrightlink:hover { color: #1aa644; }
+.copyrightlink { color: white; }
+.copyrightlink:hover { color: #00BAB3; }
 
 /*-----------------------------------
 9. Pages
@@ -522,9 +524,7 @@ img { width: auto; max-width: 100%; height: auto; margin: 0; padding: 0; border:
  9.1 Menu
 ---------------------------*/
 
-.menu-block { margin-bottom: 30px; }
-.menu-title { border-bottom: 3px solid #e0e6e3; margin-bottom: 36px; padding-bottom: 10px; }
-.menu-content { border-bottom: 1px solid #e0e6e3; margin-bottom: 30px; }
+
 .dish-img { }
 .dish-content { margin-top: 12px; margin-bottom: 40px; }
 .dish-meta { font-size: 12px; text-transform: uppercase; display: block; width: 210px; line-height: 1.7; }
@@ -544,7 +544,9 @@ img { width: auto; max-width: 100%; height: auto; margin: 0; padding: 0; border:
 .thumb-title { margin-bottom: 6px; }
 .thumb-text { margin-bottom: 5px; }
 .thumb-price { font-size: 42px; color: #1aa644; font-weight: 600; font-family: 'Zilla Slab', serif; }
-
+.section-subtitle {}
+.mision { margin-right: 35px;  margin-left: 35px;}
+.misionLetter{ color: #0055B7; }
 /*-------------------------
  9.2 Service
 ---------------------------*/
@@ -870,4 +872,85 @@ img { width: auto; max-width: 100%; height: auto; margin: 0; padding: 0; border:
     .footer-title{margin-bottom: 15px;}
     .childern{padding-left: 10px; margin-top: 10px;}
 
+}
+
+
+/* CARDS BOOSTRAP EXAMPLE*/
+
+.title-arch {
+  text-align: center;
+  margin: 50px 0;
+  font-size: 22px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.project {
+height: 500px;
+background-image: url(https://image.freepik.com/free-vector/abstract-geometric-background-design_1045-764.jpg);
+background-size: cover;
+background-position: center;
+padding: 0 !important;
+float:left;
+}
+
+.project-2 {
+background-image: url(https://image.freepik.com/free-vector/abstract-geometric-background-design_1045-764.jpg);
+}
+
+.project-3 {
+background-image: url(https://image.freepik.com/free-vector/abstract-geometric-background-design_1045-764.jpg);
+}
+
+.project-4 {
+background-image: url(https://image.freepik.com/free-vector/abstract-geometric-background-design_1045-764.jpg);
+}
+
+.project-hover {
+width: 100%;
+height: 100%;
+color: #fff;
+opacity: 0;
+-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s ease;
+background-color: #005da6;
+padding: 40% 30px !important;
+}
+
+.project-hover hr {
+height: 30px;
+width: 0;
+-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s ease;
+background-color: rgba(255, 255, 255, 1);
+border: 0;
+}
+
+.project-hover a {
+color: rgba(255, 255, 255, 1);
+padding: 2px 22px;
+line-height: 40px;
+border: 2px solid rgba(255, 255, 255, 1);
+-webkit-transition: all 0.5s ease-in-out;
+-moz-transition: all 0.5s ease-in-out;
+-o-transition: all 0.5s ease-in-out;
+transition: all 0.5s ease-in-out;
+}
+
+.project-hover a:hover {
+border-color: rgba(51, 51, 51, 1);
+color: rgba(51, 51, 51, 1);
+background-color: #FFF;
+}
+
+.project:hover .project-hover {
+opacity: 1;
+}
+
+.project:hover .project-hover hr {
+width: 100%;
+height: 5px;
 }
