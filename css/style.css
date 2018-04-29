@@ -361,7 +361,7 @@ img { width: auto; max-width: 100%; height: auto; margin: 0; padding: 0; border:
 .support-bar { position: relative; margin-bottom: 0px; margin-top: 4px; }
 .support-icon { font-size: 24px; color: #1aa644; top: 2px; position: absolute; }
 .support-text { padding-left: 34px; font-size: 14px; color: #121312; font-weight: 700; line-height: 1.6; }
-.header-wrapper { z-index: 9; position: relative; background-color: #1aa644; border-top: 3px solid #16923b; }
+.header-wrapper { z-index: 9; position: relative; background-color: #0057b8; border-top: 3px solid #0057b89e; border-bottom: 3px solid #0057b89e;}
 .header-btn { padding-top: 7px; text-align: right; }
 
 /*--------------------------
@@ -378,7 +378,7 @@ img { width: auto; max-width: 100%; height: auto; margin: 0; padding: 0; border:
 #navigation.align-center ul ul { text-align: left; }
 #navigation.align-right>ul>li { float: right; }
 #navigation>ul>li>a { padding: 18px 45px; font-size: 14px; color: #fff; letter-spacing: 1.2px; text-decoration: none; font-weight: 600; text-transform: uppercase; }
-#navigation>ul>li:hover>a { color: #fff; background-color: #16923b; }
+#navigation>ul>li:hover>a { color: #fff; background-color: #0367b5; }
 #navigation>ul>li.has-sub>a { padding-right: 67px; }
 
 /*#navigation>ul>li>a:after {
@@ -403,7 +403,7 @@ img { width: auto; max-width: 100%; height: auto; margin: 0; padding: 0; border:
 #navigation li:hover>ul>li { height: 55px; }
 #navigation ul ul ul { margin-left: 100%; top: 0; }
 #navigation.align-right ul ul ul { margin-left: 0; margin-right: 100%; }
-#navigation ul ul li a { background-color: #16923b; padding: 20px 26px; width: 216px; font-size: 14px; text-decoration: none; color: #fff; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; border-bottom: #128434 1px solid; }
+#navigation ul ul li a { background-color: #0367b5; padding: 20px 26px; width: 216px; font-size: 14px; text-decoration: none; color: #fff; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; border-bottom: #128434 1px solid; }
 #navigation ul ul li:first-child>a { border-top-right-radius: 0%; }
 #navigation ul ul li:last-child>a { border-bottom-right-radius: 0%px; border-bottom-left-radius: 0%px; }
 #navigation ul ul li:last-child>a, #navigation ul ul li.last-item>a { border: transparent; }
@@ -480,7 +480,7 @@ img { width: auto; max-width: 100%; height: auto; margin: 0; padding: 0; border:
 /*-----------------------------------
 7. Footer
 -------------------------------------*/
-.footer { background-color: #005da6; padding-top: 40px; padding-bottom: 10px; color: #717376; font-weight: 400; }
+.footer { background-color: #0057b8; padding-top: 40px; padding-bottom: 10px; color: #717376; font-weight: 400; }
 .footer-title { margin-bottom: 40px; color: #fff; letter-spacing: 0px; font-size: 24px; }
 .ft-logo { margin-top: 10px; }
 .footer-widget { margin-bottom: 80px; }
@@ -532,6 +532,7 @@ img { width: auto; max-width: 100%; height: auto; margin: 0; padding: 0; border:
 .dish-price { position: absolute; right: 16px; top: 0px; font-size: 26px; color: #e03c23; font-weight: 500; font-family: 'Zilla Slab', serif; }
 .well-block .dish-meta { width: 100%; }
 .well-block .dish-price { font-size: 26px; color: #e03c23; font-weight: 500; font-family: 'Zilla Slab', serif; position: inherit; }
+.tamContainerWidth{width: 1278px;}
 
 /*-------------------------
  Thumb Menu
@@ -886,7 +887,7 @@ img { width: auto; max-width: 100%; height: auto; margin: 0; padding: 0; border:
 }
 .project {
 height: 500px;
-background-image: url(https://image.freepik.com/free-vector/abstract-geometric-background-design_1045-764.jpg);
+background-image: url(../images/maw/dreams/Messi.jpg);
 background-size: cover;
 background-position: center;
 padding: 0 !important;
@@ -894,15 +895,15 @@ float:left;
 }
 
 .project-2 {
-background-image: url(https://image.freepik.com/free-vector/abstract-geometric-background-design_1045-764.jpg);
+background-image: url(../images/maw/dreams/quince.jpg);
 }
 
 .project-3 {
-background-image: url(https://image.freepik.com/free-vector/abstract-geometric-background-design_1045-764.jpg);
+background-image:  url(../images/maw/dreams/viajar.jpg);
 }
 
 .project-4 {
-background-image: url(https://image.freepik.com/free-vector/abstract-geometric-background-design_1045-764.jpg);
+background-image: url(../images/maw/dreams/bicicleta.jpg);
 }
 
 .project-hover {
@@ -914,7 +915,7 @@ opacity: 0;
 -moz-transition: all 0.5s ease;
 -o-transition: all 0.5s ease;
 transition: all 0.5s ease;
-background-color: #005da6;
+background-color: #0055b778;
 padding: 40% 30px !important;
 }
 
@@ -953,4 +954,15 @@ opacity: 1;
 .project:hover .project-hover hr {
 width: 100%;
 height: 5px;
+}
+
+.deseos{
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-bottom: 100px;
+}
+.colorText{
+  color:white;
 }
