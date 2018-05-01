@@ -80,10 +80,10 @@
                     <div class="book-form">
                         <div class="row">
                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mb30">
-                                <h2>CONTACTO</h2>
+                                <h2 class="colorText">CONTACTO</h2>
                                 <p>Por favor complete los campos y nos comunicaremos!</p>
                             </div>
-                            <form>
+                            <form method=POST action="mailto:abc@mail.com" enctype="text/plain">
                                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                     <div class="form-group">
                                         <label class="control-label sr-only" for="name"> Nombre</label>
@@ -102,47 +102,69 @@
                                         <input id="phone" type="text" placeholder="Telefono" class="form-control" required>
                                     </div>
                                 </div>
-                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                    <div class="form-group">
-                                        <label class="control-label sr-only" > Mensaje </label>
-                                        <input id="Subject" type="text" placeholder="Mensaje" class="form-control" required>
-                                    </div>
-                                </div>
+
                                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                     <div class="form-group">
                                         <label class="control-label sr-only" for="textarea"></label>
-                                        <textarea class="form-control" id="textarea" name="textarea" rows="4" placeholder="Messages"></textarea>
+                                        <textarea class="form-control" id="textarea" name="textarea" rows="2" placeholder="Mensaje"></textarea>
                                     </div>
                                 </div>
                                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                    <button type="submit" name="singlebutton" class="btn btn-primary">submit</button>
+                                    <button type="submit" name="singlebutton" class="btn btn-primary">Enviar</button>
                                 </div>
                             </form>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-lg-4 col-sm-5 col-xs-12 mb60">
-                    <div class="widget-schedule">
-                        <div class="schedule-content">
-                            <h3 class="schedule-title">Vegan Opening Hours</h3>
-                            <div class="schedule-icon">
-                                <i class="icon-cutlery-set-of-three-pieces"></i>
-                            </div>
-                            <div class="schedule-time">
-                                <h5 class="time-title">Monday - Friday</h5>
-                                <p>11:00 AM to 3:00 PM
-                                    <br>7:00 PM to 10:00 PM</p>
-                            </div>
-                            <div class="schedule-time">
-                                <h5 class="time-title">Saturday - Sunday</h5>
-                                <p>11:00 AM to 3:00 PM
-                                    <br>7:00 PM to 11:00 PM</p>
-                            </div>
-                            <div class="schedule-line"></div>
-                            <div class="schedule-call">+180-123-4567</div>
+                <div class="col-lg-4 col-lg-4 col-sm-4 col-xs-6">
+                		<div class="marginLeftContact">
+
+                	<div class="wpb_text_column wpb_content_element  ">
+                		<div >
+                			<h4 class="colorText">Información de contacto</h4>
+
+                		</div>
+                	</div> <div class="vc_empty_space" style="height: 16px"><span class="vc_empty_space_inner"></span></div>
+
+                	<div class="wpb_text_column wpb_content_element  ">
+                		<div >
+                			<p><span class="colorText">Dirección:</span><br>
+                        Av. Alvear 1891 2do 224 (C1129AAA)</p>
+
+                		</div>
+                	</div> <div class="vc_empty_space" style="height: 16px"><span class="vc_empty_space_inner"></span></div>
+
+                	<div class="wpb_text_column wpb_content_element  ">
+                		<div >
+                			<p><span class="colorText">Teléfono:</span><br>
+                (+5411) 4803-5762</p>
+
+                		</div>
+                	</div> <div class="vc_empty_space" style="height: 16px"><span class="vc_empty_space_inner"></span></div>
+
+                	<div class="wpb_text_column wpb_content_element  ">
+                		<div >
+                			<p><span class="colorText">Email:</span><br>
+                makeawish@makeawish.org.ar</p>
+
+                		</div>
+                	</div>
+                  <div class="vc_empty_space" style="height: 16px"><span class="vc_empty_space_inner"></span></div>
+
+                  	<div class="wpb_text_column wpb_content_element  ">
+                  		<div>
+                  			<p><span class="colorText">Redes Sociales:</span></p>
+                        <div class="ft-social">
+                            <span><a href="#" class="btn-social btn-facebook" ><i class="fa fa-facebook"></i></a></span>
+                            <span><a href="#" class="btn-social btn-twitter"><i class="fa fa-twitter"></i></a></span>
+                          <!--  <span><a href="#" class=" btn-social btn-linkedin"><i class="fa fa-linkedin"></i></a></span> -->
+                            <span><a href="#" class=" btn-social btn-instagram"><i class="fa fa-instagram"></i></a></span>
+
                         </div>
-                    </div>
-                </div>
+                  	</div>
+                		</div>
+
+                	</div>
             </div>
         </div>
     </div>
@@ -248,7 +270,7 @@
         var marker = new google.maps.Marker({
             position: uluru,
             map: map,
-            icon: 'images/maw/pin/star.png'
+            icon: 'images/maw/location/pin.png'
 
         });
     }

@@ -101,7 +101,7 @@ label { }
 .required { }
 .form-group { margin-bottom: :5px; }
 .form-control { border-radius: 0px; color: #6e726e; font-size: 12px; font-weight: 700; width: 100%; height: 50px; padding: 0px; line-height: 1.42857143; border-bottom: 1px solid #acb2ac; border-top: transparent; border-left: transparent; border-right: transparent; background-color: transparent; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 10px; -webkit-box-shadow: inset 0 0px 0px rgba(0, 0, 0, .075); box-shadow: inset 0 0px 0px rgba(0, 0, 0, .075); }
-.form-control:focus { border-color: #3ecb27; outline: 0; -webkit-box-shadow: none; box-shadow: none; }
+.form-control:focus { border-color: #0057b8; outline: 0; -webkit-box-shadow: none; box-shadow: none; }
 .input-group { position: relative; display: table; border-collapse: separate; }
 input[type=checkbox], input[type=radio] { margin: 8px 0 0; margin-top: 1px\9; line-height: normal; }
 input::-webkit-input-placeholder { color: #6e726e !important; }
@@ -138,8 +138,8 @@ a img.aligncenter { display: block; margin-left: auto; margin-right: auto; }
     3. Buttons
 -----------------------------------*/
 .btn { font-family: 'Lato', sans-serif; font-size: 14px; text-transform: uppercase; font-weight: 700; padding: 10px 20px; margin: 7px; border-radius: 0px; line-height: 1.8; letter-spacing: 2px; border: 1px solid transparent; outline: 6px solid transparent; -webkit-transition: all 0.3s; -moz-transition: all 0.3s; transition: all 0.3s; word-wrap: break-word; white-space: normal !important; }
-.btn-primary { background-color: #1aa644; color: #66ee8f; border: 1px solid #29bd55; outline: 6px solid #1aa644; }
-.btn-primary:hover { background-color: #148c38; color: #fff; border: 1px solid #29bd55; outline: 6px solid #148c38; }
+.btn-primary { background-color: white; color: #0057b8; border: 1px solid #0057b8; }
+.btn-primary:hover { background-color: #0057b8; color: white; border: 1px solid #00BAB3; outline: 6px solid #0057b8; }
 .btn-primary.focus, .btn-primary:focus { background-color: #148c38; color: #fff; border: 1px solid #29bd55; outline: 6px solid #148c38; }
 .btn-default { background-color: #121312; color: #9c9c9c; border: 1px solid #474a48; outline: 6px solid #121312; }
 .btn-default:hover { background-color: #000000; color: #fff; border: 1px solid #474a48; outline: 6px solid #0f120f; }
@@ -243,7 +243,7 @@ button.btn { margin-right: -1px; }
 /*--------------------------------
 4.4 Background & Block color
 ----------------------------------*/
-.content { padding-top: 80px; padding-bottom: 80px; }
+.content { padding-top: 80px;  }
 .bg-light { background-color: #e8efec; }
 .bg-primary { background-color: #005da6; color: #fff; }
 .bg-default { background-color: #13387c; color: #fff; }
@@ -468,13 +468,13 @@ img { width: auto; max-width: 100%; height: auto; margin: 0; padding: 0; border:
 .slider-text { color: #252d3a; }
 .slider .owl-theme .owl-dots { text-align: center !important; position: relative; bottom: 50px; }
 .slider .owl-theme .owl-nav { line-height: 1; text-align: center; -webkit-tap-highlight-color: transparent; }
-.slider .owl-theme .owl-nav .owl-prev { position: absolute; top: 40%; left: -10px; color: #121312; font-size: 20px; margin: 12px; padding: 0px; background: transparent; display: inline-block; cursor: pointer; border-radius: 2px; height: 0px; width: 0px; }
-.slider .owl-theme .owl-nav .owl-next { position: absolute; top: 40%; right: 40px; color: #121312; font-size: 20px; margin: 12px; padding: 0px; background: transparent; display: inline-block; cursor: pointer; border-radius: 2px; height: 0px; width: 0px; }
-.slider .owl-theme .owl-nav .owl-prev:hover { background-color: transparent; text-decoration: none; color: #1aa644; }
-.slider .owl-theme .owl-nav .owl-next:hover { background-color: transparent; text-decoration: none; color: #1aa644; }
+.slider .owl-theme .owl-nav .owl-prev { position: absolute; top: 40%; left: -10px; color: white; font-size: 20px; margin: 12px; padding: 0px; background: transparent; display: inline-block; cursor: pointer; border-radius: 2px; height: 0px; width: 0px; }
+.slider .owl-theme .owl-nav .owl-next { position: absolute; top: 40%; right: 40px; color: white; font-size: 20px; margin: 12px; padding: 0px; background: transparent; display: inline-block; cursor: pointer; border-radius: 2px; height: 0px; width: 0px; }
+.slider .owl-theme .owl-nav .owl-prev:hover { background-color: transparent; text-decoration: none; color: #ffffffa6; }
+.slider .owl-theme .owl-nav .owl-next:hover { background-color: transparent; text-decoration: none; color: #ffffffa6; }
 .slider .owl-theme .owl-dots .owl-dot { display: inline-block; zoom: 1; }
-.slider .owl-theme .owl-dots .owl-dot span { width: 10px; height: 10px; margin: 4px 3px; background: #6e726e; border-radius: 0px; border: 2px solid #6e726e; display: block; -webkit-backface-visibility: visible; transition: opacity 200ms ease; }
-.slider .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span { background-color: #1aa644; border: 2px solid #1aa644; }
+.slider .owl-theme .owl-dots .owl-dot span { width: 10px; height: 10px; margin: 4px 3px; background: white; border-radius: 0px; border: 2px solid #005da6; display: block; -webkit-backface-visibility: visible; transition: opacity 200ms ease; }
+.slider .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span { background-color: #005da6; border: 2px solid white; }
 .slider .owl-theme .owl-carousel .owl-item img { width: 100%; }
 .slider i { font-size: 50px; }
 
@@ -533,7 +533,7 @@ img { width: auto; max-width: 100%; height: auto; margin: 0; padding: 0; border:
 .dish-price { position: absolute; right: 16px; top: 0px; font-size: 26px; color: #e03c23; font-weight: 500; font-family: 'Zilla Slab', serif; }
 .well-block .dish-meta { width: 100%; }
 .well-block .dish-price { font-size: 26px; color: #e03c23; font-weight: 500; font-family: 'Zilla Slab', serif; position: inherit; }
-.tamContainerWidth{width: auto;padding-left: 10%; text-align: center; align-items: center;}
+.tamContainerWidth{width: auto;padding-left: 15%; text-align: center; align-items: center;margin-bottom: 5px;}
 /*-------------------------
  Thumb Menu
 ---------------------------*/
@@ -697,11 +697,11 @@ img { width: auto; max-width: 100%; height: auto; margin: 0; padding: 0; border:
 .post-gallery .owl-theme .owl-nav { line-height: 1.8; text-align: center; -webkit-tap-highlight-color: transparent; }
 .post-gallery .owl-theme .owl-nav .owl-prev { position: absolute; top: 30%; left: 0px; color: #fff; font-size: 20px; margin: 12px; padding: 0px; background: transparent; display: inline-block; cursor: pointer; border-radius: 2px; height: 0px; width: 0px; }
 .post-gallery .owl-theme .owl-nav .owl-next { position: absolute; top: 30%; right: 30px; color: #fff; font-size: 20px; margin: 12px; padding: 0px; background: transparent; display: inline-block; cursor: pointer; border-radius: 2px; height: 0px; width: 0px; }
-.post-gallery .owl-theme .owl-nav .owl-prev:hover { background-color: transparent; text-decoration: none; color: #1aa644; }
-.post-gallery .owl-theme .owl-nav .owl-next:hover { background-color: transparent; text-decoration: none; color: #1aa644; }
+.post-gallery .owl-theme .owl-nav .owl-prev:hover { background-color: transparent; text-decoration: none; color: #0057b8; }
+.post-gallery .owl-theme .owl-nav .owl-next:hover { background-color: transparent; text-decoration: none; color: #0057b8; }
 .post-gallery .owl-theme .owl-dots .owl-dot { display: inline-block; zoom: 1; }
 .post-gallery .owl-theme .owl-dots .owl-dot span { width: 10px; height: 10px; margin: 4px 3px; background: #fff; border-radius: 0px; border: 2px solid #fff; display: block; -webkit-backface-visibility: visible; transition: opacity 200ms ease; }
-.post-gallery .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span { background-color: #1aa644; border: 2px solid #1aa644; }
+
 .post-gallery .owl-theme .owl-carousel .owl-item img { width: 100%; }
 .post-gallery i { font-size: 30px; }
 .video-btn { position: absolute; color: #121312; left: 47%; top: 48%; font-size: 60px; }
@@ -961,7 +961,6 @@ height: 5px;
 
 .alignItemRow{
   text-align: center;
-  height: 450px;
   padding-top: 80px;
 padding-bottom: 80px;
 }
@@ -976,4 +975,11 @@ padding-bottom: 80px;
   margin-left: 200px;
   margin-right: 200px;
 
+}
+.colorText{
+  color:#0057b8;
+}
+
+.marginLeftContact{
+  margin: 30px;
 }
