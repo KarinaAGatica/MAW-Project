@@ -533,7 +533,7 @@ img { width: auto; max-width: 100%; height: auto; margin: 0; padding: 0; border:
 .dish-price { position: absolute; right: 16px; top: 0px; font-size: 26px; color: #e03c23; font-weight: 500; font-family: 'Lato', serif; }
 .well-block .dish-meta { width: 100%; }
 .well-block .dish-price { font-size: 26px; color: #e03c23; font-weight: 500; font-family: 'Lato', serif; position: inherit; }
-.tamContainerWidth{width: auto;padding-left: 15%; text-align: center; align-items: center;margin-bottom: 5px;}
+.tamContainerWidth{width: auto;padding-left: 5%; text-align: center; align-items: center;margin-bottom: 5px;}
 /*-------------------------
  Thumb Menu
 ---------------------------*/
