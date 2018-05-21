@@ -1151,3 +1151,21 @@ padding-bottom: 80px;
   margin:8%;
   margin-top: 2%;
 }
+.headerstyle{
+  min-height: 90px;
+  background-color: rgba(116,118,120,0.04);
+  border-bottom: 1px solid rgba(116,118,120,0.15);
+  padding-left: 8%;
+  height: 90px;
+  width: auto;
+}
+.headertitle{
+  color: #006bb6;
+  padding-top: 10%;
+}
+.textareastyle{
+  text-align: justify;
+  margin:8%;
+  margin-top: 2%;
+  text-align: center;
+}
