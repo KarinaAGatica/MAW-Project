@@ -319,17 +319,6 @@ button.btn { margin-right: -1px; }
 .default-skin .ui-widget-header { border: 1px solid #e4e7e9; background: #f3f6f8; color: #fff; font-weight: bold; }
 .default-skin .ui-state-highlight, .default-skin .ui-widget-content .ui-state-highlight, .default-skin .ui-widget-header .ui-state-highlight { border: 1px solid #e4e7e9; background: #f3f6f8; color: #fff; }
 
-/*--------------------------------
- 4.8 Image Hover Effect
-----------------------------------*/
-img { width: auto; max-width: 100%; height: auto; margin: 0; padding: 0; border: none; line-height: normal; vertical-align: middle; }
-.imghover { display: block; position: relative; max-width: 100%; }
-.imghover::before, .imghover::after { display: block; position: absolute; content: ""; text-align: center; opacity: 0; }
-.imghover::before { top: 0; right: 0; bottom: 0; left: 0; }
-.imghover::after { top: 55%; left: 48%; padding: 10px; line-height: 10px; margin: -25px 0 0 -25px; content: "\e857"; font-family: "fontello"; font-size: 45px; }
-.imghover:hover::before, .imghover:hover::after { opacity: 1; }
-.imghover:hover::before { background: rgba(18, 19, 18, .10); margin: 20px; border: 1px solid rgba(255, 255, 255, .50); }
-.imghover:hover::after { color: #fff; }
 
 /*--------------------------------
 4.9 Icon
@@ -356,7 +345,9 @@ img { width: auto; max-width: 100%; height: auto; margin: 0; padding: 0; border:
    ----------------------*/
 
 .logo { text-align: center;}
-.logoMAWHeader { height: 80px}
+
+
+.logoMAWHeader { height: 100px; margin:1% }
 .top-bar { background-color: #fff; padding-top: 20px; padding-bottom: 20px; }
 .support-bar { position: relative; margin-bottom: 0px; margin-top: 4px; }
 .support-icon { font-size: 24px; color: #1aa644; top: 2px; position: absolute; }
@@ -508,7 +499,9 @@ img { width: auto; max-width: 100%; height: auto; margin: 0; padding: 0; border:
 .btn-linkedin:hover, .btn-linkedin:active { background: #006288; color: #fff; }
 .btn-social { -webkit-font-smoothing: antialiased; font-size: 16px; padding: 12px 12px; margin-right: 2px; border-radius: 100%; display: inline-block; width: 38px; height: 38px; line-height: 1; }
 .contact-marginLeft{ margin-left: 40px;}
-.logoMAW{  height:auto;}
+.logoMAW{  height:auto;height: 50%; width: 70%;}
+
+
 .footerBottomHeight{margin-bottom: 15px;}
 /*-------------- tiny footer ------------*/
 .tiny-footer { text-align: center; font-size: 14px; color:white }
@@ -533,7 +526,8 @@ img { width: auto; max-width: 100%; height: auto; margin: 0; padding: 0; border:
 .dish-price { position: absolute; right: 16px; top: 0px; font-size: 26px; color: #e03c23; font-weight: 500; font-family: 'Lato', serif; }
 .well-block .dish-meta { width: 100%; }
 .well-block .dish-price { font-size: 26px; color: #e03c23; font-weight: 500; font-family: 'Lato', serif; position: inherit; }
-.tamContainerWidth{width: auto;padding-left: 5%; text-align: center; align-items: center;margin-bottom: 5px;}
+
+.tamContainerWidth{width: auto;padding-left: 10%;padding-right: 10%; text-align: center; align-items: center;margin-bottom: 5px;}
 /*-------------------------
  Thumb Menu
 ---------------------------*/
@@ -1168,4 +1162,20 @@ padding-bottom: 80px;
   margin:8%;
   margin-top: 2%;
   text-align: center;
+  font-size: 13pt;
+}
+.deseosAlign{
+ text-align: center;
+}
+
+.textDeseos{
+    text-align: justify;
+    font-size: 12pt;
+}
+
+/* EVENTOS */
+.sliderEventos{
+
+  height: 80%;
+
 }
