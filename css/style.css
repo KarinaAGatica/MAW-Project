@@ -527,7 +527,7 @@ button.btn { margin-right: -1px; }
 .well-block .dish-meta { width: 100%; }
 .well-block .dish-price { font-size: 26px; color: #e03c23; font-weight: 500; font-family: 'Lato', serif; position: inherit; }
 
-.tamContainerWidth{width: auto;padding-left: 10%;padding-right: 10%; text-align: center; align-items: center;margin-bottom: 5px;}
+.tamContainerWidth{width: auto; text-align: center; align-items: center;margin-bottom: 5px;}
 /*-------------------------
  Thumb Menu
 ---------------------------*/
