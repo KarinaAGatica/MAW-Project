@@ -1147,7 +1147,6 @@ padding-bottom: 80px;
 }
 .headerstyle{
   min-height: 90px;
-  background-color: rgba(116,118,120,0.04);
   border-bottom: 1px solid rgba(116,118,120,0.15);
   padding-left: 8%;
   height: 90px;
@@ -1164,6 +1163,12 @@ padding-bottom: 80px;
   text-align: center;
   font-size: 13pt;
 }
+.historiaText{
+  font-size: 16pt;
+}
+.tamLetter{
+    font-size: 22pt;
+}
 .deseosAlign{
  text-align: center;
 }
@@ -1178,4 +1183,19 @@ padding-bottom: 80px;
 
   height: 80%;
 
+}
+
+.header-text{
+  position: absolute;
+    top: 80%;
+    left: 1.8%;
+    right: auto;
+    width: 96.66666666666666%;
+    color: #fff;
+}
+
+.titlePhoto{
+  background-color: #005da6;
+  color:white;
+  padding:  1%;
 }
