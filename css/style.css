@@ -921,6 +921,13 @@ padding-bottom: 80px;
   margin-top: 80px;
 
 }
+.separateConsejo{
+    border-top: 1px solid #005da6;
+    margin-left: 700px;
+    margin-right: 700px;
+  
+  }
+
 .colorTextTitle{
   color:#0057b8;
 }
