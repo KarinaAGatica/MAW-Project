@@ -1,3 +1,41 @@
+<?php
+  error_reporting(E_ALL);
+  ini_set('display_errors','On');
+
+	require 'PHPMailer/PHPMailerAutoload.php';
+
+
+
+	$mail = new PHPMailer;                             // Passing `true` enables exceptions
+  try {
+      //Server settings
+      $mail->SMTPDebug = 2;                                 // Enable verbose debug output
+      $mail->isSMTP();                                       // Set mailer to use SMTP
+      $mail->Debugoutput = 'html';
+      $mail->Host = 'mr.fibercorp.com.ar';  // Specify main and backup SMTP servers
+      $mail->SMTPAuth = true;                               // Enable SMTP authentication
+      $mail->Username = 'administrador@makeawish.org.ar';                 // SMTP username
+      $mail->Password = 'm4k34w1sh';                           // SMTP password
+      $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
+      $mail->Port = 587;                                    // TCP port to connect to
+
+      //Recipients
+      $mail->setFrom('administrador@makeawish.org.ar', 'administrador maw');
+      $mail->addAddress('karii.gatica@gmail.com', 'Karina');     // Add a recipient
+
+      //Content
+      $mail->isHTML(true);                                  // Set email format to HTML
+      $mail->Subject = 'Prueba';
+      $mail->Body    = 'pruebita ';
+
+      $mail->send();
+      echo 'Message has been sent';
+
+  } catch (Exception $e) {
+      echo 'Message could not be sent. Mailer Error: ', $mail->ErrorInfo;
+  }
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -86,34 +124,34 @@
                                 <h2 class="colorTextTitle">CONTACTO</h2>
                                 <p>Por favor complete los campos.</p>
                             </div>
-                             <form action="mail_handler.php" method="post" name="form" class="form-box">
+                             <form method=POST action="mailto:makeawish@makeawish.org.ar" enctype="text/plain" class="form-box">
                                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                     <div class="form-group">
                                         <label class="control-label sr-only" for="name"> Nombre</label>
-                                        <input  name="name"  type="text" placeholder="Nombre" class="form-control" required>
+                                        <input  name="Nombre "  type="text" placeholder="Nombre" class="form-control" required>
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                     <div class="form-group">
                                         <label class="control-label sr-only" for="email"> Correo electronico </label>
-                                        <input  type="email" placeholder="Correo electronico" name="email"  class="form-control" required>
+                                        <input  type="email" placeholder="Correo electronico" name="Email "  class="form-control" required>
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                     <div class="form-group">
                                         <label class="control-label sr-only" for="phone"> Telefono </label>
-                                        <input type="text" name="phone" placeholder="Telefono" class="form-control" required>
+                                        <input  type="tel" name="Telefono " placeholder="Telefono" class="form-control" required>
                                     </div>
                                 </div>
 
                                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                     <div class="form-group">
                                         <label class="control-label sr-only" for="textarea"></label>
-                                        <textarea class="form-control"  name="message" rows="2" placeholder="Mensaje" required></textarea>
+                                        <textarea class="form-control"  name="Mensaje " rows="2" placeholder="Mensaje" required></textarea>
                                     </div>
                                 </div>
                                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                    <button type="submit" name="submit" class="btn btn-primary">Enviar</button>
+                                    <button type="submit" class="btn btn-primary">Enviar</button>
                                 </div>
                             </form>
                         </div>
