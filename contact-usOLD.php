@@ -178,7 +178,7 @@
                 	<div class="wpb_text_column wpb_content_element  ">
                 		<div >
                 			<p><span class="colorTextTitle">Teléfono:</span><br>
-                (+5411) 4803-5762</p>
+                (+5411) 4803-5762  /  4809-0471</p>
 
                 		</div>
                 	</div> <div class="vc_empty_space" style="height: 16px"><span class="vc_empty_space_inner"></span></div>
@@ -256,7 +256,7 @@
                         </div>
                         <div class="contact-info">
                             <span class="contact-icon"><i class="icon-telephone"></i></span>
-                            <span class="contact-text">(+5411) 4803-5762 </span>
+                            <span class="contact-text">(+5411) 4803-5762  /  4809-0471 </span>
                         </div>
                         <div class="contact-info">
                             <span class="contact-icon"><i class="icon-letter"></i></span>

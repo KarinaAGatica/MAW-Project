@@ -1141,6 +1141,9 @@ padding-bottom: 80px;
   height: 80%;
 
 }
+.eventosSizeTitle{
+  font-size: 15pt;
+}
 
 .header-text{
   position: absolute;
@@ -1155,4 +1158,8 @@ padding-bottom: 80px;
   background-color: #005da6;
   color:white;
   padding:  1%;
+}
+
+.eventosSizeDate{
+  padding-bottom: 20px;
 }
