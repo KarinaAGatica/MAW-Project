@@ -34,12 +34,12 @@
 				$mail->Port = 587;                                    // TCP port to connect to
 
 				//Recipients
-				$mail->setFrom('administrador@makeawish.org.ar', 'Contacto Web MAW');
+				$mail->setFrom('administrador@makeawish.org.ar', 'Mensaje Web MAW');
 				$mail->addAddress('karii.gatica@gmail.com', 'Contacto Web MAW');     // Add a recipient
 
 				//Content
 				$mail->isHTML(true);                                  // Set email format to HTML
-				$mail->Subject = 'Contacto Web MAW';
+				$mail->Subject = 'Mensaje Web MAW';
 				$mail->Body  = "<html><head/><body>".$contenido."</body></html>";
 
 				$mail->send();
