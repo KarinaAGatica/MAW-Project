@@ -35,7 +35,7 @@
 
 				//Recipients
 				$mail->setFrom('administrador@makeawish.org.ar', 'Mensaje Web MAW');
-				$mail->addAddress('karii.gatica@gmail.com', 'Contacto Web MAW');     // Add a recipient
+				$mail->addAddress('makeawish@makeawish.org.ar', 'Contacto Web MAW');     // Add a recipient
 
 				//Content
 				$mail->isHTML(true);                                  // Set email format to HTML
