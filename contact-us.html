@@ -170,8 +170,13 @@
                 	</div>
             </div>
         </div>
+
     </div>
-    <div id="contact-map"></div>
+
+    </div>
+    <div >
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2322.6042232276186!2d-58.39034906440206!3d-34.58750932071913!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccaa482aa8e23%3A0x605c4d8b66893af7!2sAv.+Alvear+1891%2C+C1129AAA+CABA!5e0!3m2!1ses-419!2sar!4v1532966650911" width="100%" height="500" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+
     <!-- /.contact us -->
     <!-- footer -->
     <div class="footer">
@@ -259,26 +264,7 @@
     <script src="js/menumaker.js" type="text/javascript"></script>
     <script type="text/javascript" src="js/jquery.sticky.js"></script>
     <script type="text/javascript" src="js/sticky-header.js"></script>
-    <script>
-    function initMap() {
-        var uluru = {
-            lat: -34.5876821,
-            lng: -58.3893649
-        };
-        var map = new google.maps.Map(document.getElementById('contact-map'), {
-            zoom: 17,
-            center: uluru,
-            scrollwheel: false
-        });
-        var marker = new google.maps.Marker({
-            position: uluru,
-            map: map,
-            icon: 'images/maw/location/pin.png'
-
-        });
-    }
-    </script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBZib4Lvp0g1L8eskVBFJ0SEbnENB6cJ-g&callback=initMap">
+    
     </script>
 </body>
 
