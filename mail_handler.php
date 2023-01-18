@@ -28,14 +28,16 @@
 				$mail->Debugoutput = 'html';
 				$mail->Host = 'mr.fibercorp.com.ar';  // Specify main and backup SMTP servers
 				$mail->SMTPAuth = true;                               // Enable SMTP authentication
-				$mail->Username = 'administrador@makeawish.org.ar';                 // SMTP username
+				$mail->Username = 'makeawish@makeawish.org.ar';                 // SMTP username
 				$mail->Password = 'm4k34w1sh';                           // SMTP password
+				//$mail->Password = 'd0*JT@L3cV';                           // SMTP password
 				$mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
 				$mail->Port = 587;                                    // TCP port to connect to
 
 				//Recipients
-				$mail->setFrom('administrador@makeawish.org.ar', 'Mensaje Web MAW');
-				$mail->addAddress('makeawish@makeawish.org.ar', 'Contacto Web MAW');     // Add a recipient
+				$mail->setFrom('asistente@makeawish.org.ar', 'Mensaje Web MAW');
+				$mail->addAddress('asistente@makeawish.org.ar', 'Contacto Web MAW');     // Add a recipient
+				$mail->addAddress('karii.gatica@gmail.com', 'Contacto Web MAW');     // Add a recipient
 
 				//Content
 				$mail->isHTML(true);                                  // Set email format to HTML
