@@ -135,7 +135,7 @@ label {
 .required {
 }
 .form-group {
-margin-bottom: :5px;
+	margin-bottom: 5px;
 }
 .form-control {
 	border-radius: 0px;
